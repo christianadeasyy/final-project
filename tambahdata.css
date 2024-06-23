@@ -1,0 +1,266 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.top-header img {
+  height: 50px;
+  padding-right: 20px;
+}
+.top-header {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  display: flex;
+}
+.kiri {
+  padding: 0;
+  border-right: 1px solid;
+  border-color: #f2f5f5;
+}
+.kanan {
+  background-color: #bb80b6;
+  padding: 0;
+}
+.profile {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #dbacd7;
+}
+.profile-pic {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  aspect-ratio: 1/1;
+  padding: 0;
+}
+img {
+  margin: 0;
+  padding-left: 15px;
+}
+.profile ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+.header-kanan {
+  background-color: #dbacd7;
+  padding: 5px;
+}
+.menu {
+  font-size: 15px;
+}
+.menu ul li button {
+  background-color: transparent;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0;
+  padding: 10;
+}
+.dashboard{
+  background-color: transparent;
+}
+.dashboard:hover{
+  background-color: #dfc1dd;
+}
+.tdm{
+  background-color: transparent;
+}
+.tdm:hover{
+  background-color: #dfc1dd;
+}
+.rekapitulasi{
+  background-color: transparent;
+}
+.rekapitulasi:hover{
+  background-color: #dfc1dd;
+}
+.logout{
+  background-color: transparent;
+}
+.logout:hover{
+  background-color: #dfc1dd;
+}
+.row {
+  height: 100vh;
+}
+hr {
+  padding: 0;
+  color: #dfc1dd;
+  opacity: 100%;
+  margin: 0;
+}
+.header-kanan {
+  text-align: center;
+  padding: auto;
+}
+.header-kanan h2 {
+  padding: 12px;
+  color: #502779;
+}
+.menud {
+  display: flex;
+  padding: 30px;
+  column-gap: 10%;
+  text-align: center;
+  background-color: #dcf0f1;
+  justify-content: center;
+}
+.jdwl {
+  background-color: #dfc1dd;
+  font-weight: bolder;
+  color: white;
+  font-size: larger;
+  padding: 10px;
+  text-align: left;
+  color: #502779;
+  font-size: 18px;
+}
+.mtkulcard {
+  padding: 0px 210px;
+}
+.jadwal {
+  margin: 10px;
+}
+.iconnih {
+  font-size: 50px;
+  color: #40909a;
+  padding-left: 20px;
+}
+.Search {
+  justify-content: right;
+}
+.amikom {
+  color: black;
+}
+.col-2 {
+  background-color: #f4dff2;
+}
+.Search {
+  margin-left: 470px;
+}
+.container {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1000px;
+  width: 48%;
+  background: #f4dff2;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+.container form {
+  margin-top: 0;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+.input-box label {
+  color: #502779;
+}
+.form :where(.input-box input) {
+  position: relative;
+  height: 50px;
+  width: 75%;
+  outline: none;
+  font-size: 1rem;
+  margin-top: 8px;
+  border: 1px solid #dfc1dd;
+  border-radius: 6px;
+  padding: 0 15px;
+  text-align: center;
+}
+.select-box select {
+  height: 75%;
+  width: 80%;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 1rem;
+  position: relative;
+  border-radius: 10px;
+  border: #dfc1dd;
+  padding: 10px;
+}
+.form .colomn {
+  display: flex;
+  column-gap: 100px;
+  padding: 20px;
+}
+.form .button-container{
+  display: contents;
+  position: relative;
+  justify-content: center;
+}
+.btn1 {
+  margin-top: 10px;
+  text-align: center;
+  color: #bb80b6;
+}
+.button {
+  width: 180px;
+}
+.tombol1 {
+  background-color: #502779;
+  font-weight: bold;
+}
+.riwayat {
+  margin: 20px;
+}
+.download {
+  background-color: #cfb3f0;
+  color: #502779;
+  position: relative;
+}
+.download:hover {
+  background-color: #bb80b6 ;
+}
+.upload {
+  background-color: #40909a;
+  color: white;
+}
+.upload:hover {
+  background-color: #dcf0f1;
+}
+.save {
+  background-color: #502779;
+  color: white;
+}
+
+.save:hover {
+  background-color: #cfb3f0;
+}
+
+.cancel {
+  background-color: red;
+  color: white;
+}
+
+.cancel:hover {
+  background-color: #696969;
+}
+.action-btn {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+

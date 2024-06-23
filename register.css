@@ -1,0 +1,68 @@
+.container-fluid{
+    height: 100vh;
+}
+.logok{
+    background-color: antiquewhite;
+}
+.row{
+    height: 100%;
+}
+.kiri{
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.flogin{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: #502779;
+    background-color: #f4dff2;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btn1{
+    margin-top: 50px;
+    text-align: center;
+}
+.btn2{
+    margin-top: 10px;
+    text-align: center;
+}
+button{
+    width: 180px;
+}
+.tombol1{
+    background-color: #502779;
+    font-weight: bold;
+}
+.tombol2{
+    color: white;
+    background-color: #dfc1dd;
+    font-weight: bold;
+}
+/* KANAN */
+.kanan{
+    background-color: #bb80b6;
+}
+img{
+    align-content: center;
+    width: 500px;
+}
+.gambar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.tbllogin{
+    text-decoration: none;
+    color: white;
+}
+.tblregis{
+
+    text-decoration: none;
+    color: white;
+}

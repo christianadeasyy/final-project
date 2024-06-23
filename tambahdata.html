@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="tambahdata.css" />
+    <title>Dashboard Dosen</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div class="top-header">
+      <img src="img/logo.png" alt="img" />
+      <div class="amikom">
+        <h3 class="mt-0">Universitas Amikom Yogyakarta</h3>
+      </div>
+      <div class="Search">
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search" />
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- SIDEBAR KIRI -->
+        <div class="col-2 kiri">
+          <div class="profile rounded-4">
+            <img
+              src="/img/dosen.png"
+              alt=""
+              class="profile-pic rounded-circle"
+            />
+            <!-- <i class="bi bi-person-fill profile-pic"></i> -->
+            <ul>
+              <li><b>Christiana D.A</b></li>
+              <li>23.01.5007</li>
+            </ul>
+          </div>
+          <hr />
+          <div class="menu">
+            <ul class="list-group list-group-flush">
+              <button class="btn dashboard" href="dashboard.html">
+                <i class="fas fa-tachometer-alt menu-icon"></i>Dashboard
+              </button>
+              <button class="btn tdm" href="tambahdata.html">
+                <i class="fas fa-plus menu-icon"></i>Tambah Data Mahasiswa
+              </button>
+              <button class="btn rekapitulasi" href="rekapitulasi.html">
+                <i class="fas fa-chart-bar menu-icon"></i>Rekapitulasi
+              </button>
+              <button class="btn logout" href="login.html">
+                <i class="bi bi-x-circle-fill"></i>Log Out
+              </button>
+              <hr style="color: black; opacity: 1%" />
+            </ul>
+          </div>
+        </div>
+        <!-- KONTEN KANAN -->
+        <div class="col-10 kanan">
+          <!-- MENU KANAN -->
+          <div class="Perkuliahan">
+            <div class="jadwal kuliah">
+              <div class="header-kanan rounded my-3">
+                <h2><b>Tambah Data Nilai Mahasiswa</b></h2>
+              </div>
+              <section class="container">
+                <form action="#" class="form">
+                  <div class="mb-4">
+                <label class="fw-bold">Pencarian</label>
+                <div class="d-flex align-items-center gap-2">
+                  <input
+                    class="form-control py-2"
+                    placeholder="Cari Mahasiswa berdasarkan Nama/NIM"
+                    required
+                  />
+                  <button class="btn btn-primary px-5">
+                    <i class="bi bi-search text-white"></i>
+                  </button>
+                </div>
+              </div>
+                  <div class="input-box">
+                    <label><b>Nama Mahasiswa</b></label>
+                    <input type="text"
+                    disabled
+                    class="form-control2"
+                    value="Christiana Deasy Ambarwati"
+                    placeholder="Masukkan Nama Mahasiswa"
+                    required
+                  />
+                  </div>
+                  <div class="input-box">
+                    <label><b>NIM Mahasiswa</b></label>
+                    <input type="text"
+                    value="23.01.5007"
+                    disabled
+                    class="form-control2"
+                    placeholder="Masukkan NIM Mahasiswa"
+                    required
+                  />
+                  </div>
+                  <div class="input-box">
+                    <label><b>Nilai Mahasiswa</b></label>
+                    <input type="text" placeholder="" />
+                  </div>
+                  <div class="input-box">
+                    <label><b>Lainnya</b></label>
+                    <input type="text" placeholder="Masukkan Data/Nilai Lainnya"/>
+                  </div>
+                  <div class="colomn">
+                    <div class="select-box">
+                      <label for="namaMatakuliah">Matakuliah</label>
+                      <select id="namaMatakuliah" name="namaMatakuliah">
+                        <option value="matakuliah">Pilih Mata Kuliah</option>
+                        <option value="matakuliah">Pemrograman Web</option>
+                        <option value="matakuliah">Pemrograman Web</option>
+                      </select>
+                    </div>
+                    <div class="select-box">
+                      <label for="tipenilai">Tipe Nilai</label>
+                      <select id="tipenilai" name="tipenilai">
+                        <option value="tipenilai">Tipe Nilai</option>
+                        <option value="tipenilai">Kehadiran</option>
+                        <option value="tipenilai">Tugas</option>
+                        <option value="tipenilai">Responsi</option>
+                        <option value="tipenilai">Ulangan Tengah Semester</option>
+                        <option value="tipenilai">Ulangan Akhir Semester</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="button-container">
+                    <button class="btn download"><b><i class="fas fa-download"></i> DOWNLOAD FILE</b></button>
+                    <button class="btn upload"><b>+ UPLOAD FILE</b></button>
+                    <button class="btn save"><b>SUBMIT</b></button>
+                    <button class="btn cancel"><b>BATAL</b></button>
+                  </div>
+                </form>
+              </div>
+              </section>
+              <div class="riwayat">
+                <div class="rounded overflow-hidden">
+                <div class="jdwl">Riwayat Tugas Mahasiswa</div>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>NO.</th>
+                      <th>NAMA</th>
+                      <th>NIM</th>
+                      <th>KELAS</th>
+                      <th>TIPE</th>
+                      <th>NILAI</th>
+                      <th>ADT</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Christiana Deasy A</td>
+                      <td>23.01.5007</td>
+                      <td>D3TI01</td>
+                      <td>Kehadiran</td>
+                      <td>80</td>
+                      <th>x</th>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Christiana Deasy A</td>
+                      <td>23.01.5007</td>
+                      <td>D3TI01</td>
+                      <td>Kehadiran</td>
+                      <td>80</td>
+                      <th>x</th>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Christiana Deasy A</td>
+                      <td>23.01.5007</td>
+                      <td>D3TI01</td>
+                      <td>Kehadiran</td>
+                      <td>80</td>
+                      <th>x</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
